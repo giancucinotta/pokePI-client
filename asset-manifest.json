@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/pokePI-client/static/css/main.982f4937.chunk.css",
+    "main.js": "/pokePI-client/static/js/main.cfd444a6.chunk.js",
+    "main.js.map": "/pokePI-client/static/js/main.cfd444a6.chunk.js.map",
+    "runtime-main.js": "/pokePI-client/static/js/runtime-main.c8371534.js",
+    "runtime-main.js.map": "/pokePI-client/static/js/runtime-main.c8371534.js.map",
+    "static/js/2.9faa30a9.chunk.js": "/pokePI-client/static/js/2.9faa30a9.chunk.js",
+    "static/js/2.9faa30a9.chunk.js.map": "/pokePI-client/static/js/2.9faa30a9.chunk.js.map",
+    "static/js/3.ae40fb78.chunk.js": "/pokePI-client/static/js/3.ae40fb78.chunk.js",
+    "static/js/3.ae40fb78.chunk.js.map": "/pokePI-client/static/js/3.ae40fb78.chunk.js.map",
+    "index.html": "/pokePI-client/index.html",
+    "static/css/main.982f4937.chunk.css.map": "/pokePI-client/static/css/main.982f4937.chunk.css.map",
+    "static/js/2.9faa30a9.chunk.js.LICENSE.txt": "/pokePI-client/static/js/2.9faa30a9.chunk.js.LICENSE.txt",
+    "static/media/LandingPage.css": "/pokePI-client/static/media/Landing.6ae0ee2e.gif",
+    "static/media/POKEPI2.6a32c3b7.png": "/pokePI-client/static/media/POKEPI2.6a32c3b7.png",
+    "static/media/CardDetail.css": "/pokePI-client/static/media/detail-bg.c6c16e96.gif",
+    "static/media/AddPokemon.css": "/pokePI-client/static/media/form-bg.940a3a0b.gif",
+    "static/media/Nav.css": "/pokePI-client/static/media/nav-banner.45ed749e.png",
+    "static/media/notFound.106fe554.gif": "/pokePI-client/static/media/notFound.106fe554.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8371534.js",
+    "static/js/2.9faa30a9.chunk.js",
+    "static/css/main.982f4937.chunk.css",
+    "static/js/main.cfd444a6.chunk.js"
+  ]
+}
