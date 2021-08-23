@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pokePI-client/static/css/main.982f4937.chunk.css",
-    "main.js": "/pokePI-client/static/js/main.93f1e72e.chunk.js",
-    "main.js.map": "/pokePI-client/static/js/main.93f1e72e.chunk.js.map",
+    "main.js": "/pokePI-client/static/js/main.ea8a3779.chunk.js",
+    "main.js.map": "/pokePI-client/static/js/main.ea8a3779.chunk.js.map",
     "runtime-main.js": "/pokePI-client/static/js/runtime-main.c8371534.js",
     "runtime-main.js.map": "/pokePI-client/static/js/runtime-main.c8371534.js.map",
     "static/js/2.9faa30a9.chunk.js": "/pokePI-client/static/js/2.9faa30a9.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.c8371534.js",
     "static/js/2.9faa30a9.chunk.js",
     "static/css/main.982f4937.chunk.css",
-    "static/js/main.93f1e72e.chunk.js"
+    "static/js/main.ea8a3779.chunk.js"
   ]
 }
