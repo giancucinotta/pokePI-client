@@ -1,0 +1,63 @@
+.danger{
+    color: red
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    border: black;
+    border-style: solid;
+    flex-wrap: wrap;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-image: url('./form-bg.gif');
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.form-container-container{
+    display: flex;
+    flex-direction: column;
+    border: black;
+    border-style: solid;
+    flex-wrap: wrap;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #cab3cc;
+    
+}
+
+.form-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-items1{
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: center;
+}
+
+.form-items2{
+    margin-right: 15px;
+    justify-content: center;
+}
+
+.input-item{
+    width: 400px;
+}
+
+.button-form{
+    background-image: linear-gradient(to right, #af8db2 0%, #a27aa5  51%, #956799  100%);
+    font-size: 17px;
+    cursor: pointer;
+    transition: transform 250ms;
+    margin-bottom: 25px;
+    background-image: linear-gradient(to right, #956799 0%, #87548c  51%, #7f3e85  100%);
+    transition: transform .5s ease;
+    transform: scale(1.1);
+    border-radius: 7px;
+}

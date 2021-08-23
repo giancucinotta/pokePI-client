@@ -1,0 +1,80 @@
+.cards-detail-container{
+    display: flex;
+    flex-direction: column;
+    border: black;
+    border-style: solid;
+    flex-wrap: wrap;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+    align-content: space-between;
+    height: 500px;
+    background-image: url('./detail-bg.gif');
+    background-size: cover;
+    overflow: hidden;
+    color: #956799
+}
+
+.card-detail{
+    display: flex;
+    margin-top: 35px;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 115px;
+}
+
+.stats-detail{
+    display: flex;
+    margin-top: 95px;
+    margin-right: 115px;
+}
+
+.img-detail{
+    display: flex;
+    max-width: 250px;
+    max-height: 250px;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+}
+
+.name-detail{
+    display: flex;
+    font-size: 25px;
+    align-content: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+}
+
+.id-detail{
+    font-size: small;
+    width: 200px;
+    margin-left: 25px;
+    color: #af8db2;
+}
+
+
+.btn-grad-detail{
+    background-image: linear-gradient(to right, #af8db2 0%, #a27aa5  51%, #956799  100%);
+    font-size: 17px;
+    position: absolute;
+    left: 923px;
+    bottom: 45px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: transform 250ms;
+}
+
+.btn-grad-detail:hover{
+    background-image: linear-gradient(to right, #956799 0%, #87548c  51%, #7f3e85  100%);
+   transition: transform .5s ease;
+   transform: scale(1.1);
+}
+
+.p-detail{
+    margin-top: -15px;
+     font-size: small;
+ }

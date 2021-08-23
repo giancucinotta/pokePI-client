@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Bungee';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #7f3e85;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a{
+  text-decoration: none;
+}
