@@ -7,7 +7,7 @@ export const POKEMON_DETAIL_RESET = 'POKEMON_DETAIL_RESET';
 
 export const addPokemon = (obj) => {
     return (dispatch) =>
-        fetch("http://localhost:3001/pokemons", {
+        fetch("https://pokepi.herokuapp.com/pokemons", {
             method: "POST",
             headers: {
                 Accept: "application/json",
@@ -26,7 +26,7 @@ export const addPokemon = (obj) => {
 
 export const getPokemon = () => {
     return (dispatch) =>
-        fetch("http://localhost:3001/pokemons")
+        fetch("https://pokepi.herokuapp.com/pokemons")
             .then((answer) => answer.json())
             .then((answer) =>
                 dispatch({
@@ -37,7 +37,7 @@ export const getPokemon = () => {
 
 export const getPokemonDetail = (id) => {
     return (dispatch) =>
-        fetch(`http://localhost:3001/pokemons/${id}`)
+        fetch(`https://pokepi.herokuapp.com/pokemons/${id}`)
             .then((answer) => answer.json())
             .then((answer) =>
                 dispatch({
@@ -48,7 +48,7 @@ export const getPokemonDetail = (id) => {
 
 export const getPokemonByName = (name) => {
     return (dispatch) =>
-        fetch(`http://localhost:3001/pokemons/by?name=${name}`)
+        fetch(`https://pokepi.herokuapp.com/pokemons/by?name=${name}`)
             .then((answer) => answer.json())
             .then((answer) =>
                 dispatch({
